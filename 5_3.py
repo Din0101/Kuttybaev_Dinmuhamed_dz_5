@@ -16,7 +16,7 @@ def gen_of_people():
 
 print(gen_of_people()) # доказательство что генератор
 print(next(gen_of_people()))
-print(next(gen_of_people()))# не понял почему next возвращает одно и то же значение
+print(next(gen_of_people()))# не понял почему next возвращает одно и то же значение?
 for gen in gen_of_people():
     print(gen)
 
