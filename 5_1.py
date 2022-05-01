@@ -1,4 +1,5 @@
 def odd_nums(nums):
+    #легкая функция
     for num in range(1, nums + 1, 2):
         yield num
 
