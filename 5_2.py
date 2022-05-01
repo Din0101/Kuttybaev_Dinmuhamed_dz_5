@@ -1,4 +1,5 @@
 def odd_nums(nums):
+    #легкое задание
     some_num =(num for num in range(1, nums + 1, 2))
     return some_num
 
